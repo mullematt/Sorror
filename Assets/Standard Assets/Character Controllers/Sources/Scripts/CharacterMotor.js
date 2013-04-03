@@ -21,9 +21,9 @@ var inputJump : boolean = false;
 
 class CharacterMotorMovement {
 	// The maximum horizontal speed when moving
-	var maxForwardSpeed : float = 10.0;
-	var maxSidewaysSpeed : float = 10.0;
-	var maxBackwardsSpeed : float = 10.0;
+	var maxForwardSpeed : float = 7.0;
+	var maxSidewaysSpeed : float = 5.0;
+	var maxBackwardsSpeed : float = 4.0;
 	
 	// Curve for multiplying speed based on slope (negative = downwards)
 	var slopeSpeedMultiplier : AnimationCurve = AnimationCurve(Keyframe(-90, 1), Keyframe(0, 1), Keyframe(90, 0));
